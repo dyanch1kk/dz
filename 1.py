@@ -1,2 +1,5 @@
-a = [1,4,5,3]
+n = int(input())
+a = []
+for i in range(n):
+    a.append(int(input()))
 print(max(a))
